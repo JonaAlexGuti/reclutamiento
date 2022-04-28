@@ -1,0 +1,38 @@
+name: reclutamiento
+description: Una Pokedex
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^1.0.3
+  http: ^0.13.4
+  clay_containers: ^0.3.2
+  cupertino_icons: ^1.0.4
+  path_provider: ^2.0.9
+  sqlite3_flutter_libs: ^0.5.5
+  sqflite: ^2.0.2
+  fluttertoast: ^8.0.9
+  favorite_button: ^0.0.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^1.0.4
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/pokedex.svg
+    - assets/images/pokedex.png
+    - assets/images/icons8-slider-50.png
+
